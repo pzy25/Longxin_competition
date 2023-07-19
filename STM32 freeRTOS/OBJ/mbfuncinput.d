@@ -1,0 +1,12 @@
+..\obj\mbfuncinput.o: ..\FREEMODBUS\modbus\functions\mbfuncinput.c
+..\obj\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mbfuncinput.o: ..\FREEMODBUS\port\port.h
+..\obj\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mbfuncinput.o: ..\FREEMODBUS\modbus\include\mb.h
+..\obj\mbfuncinput.o: ..\FREEMODBUS\modbus\include\mbport.h
+..\obj\mbfuncinput.o: ..\FREEMODBUS\modbus\include\mbproto.h
+..\obj\mbfuncinput.o: ..\FREEMODBUS\modbus\include\mbframe.h
+..\obj\mbfuncinput.o: ..\FREEMODBUS\modbus\include\mbconfig.h
