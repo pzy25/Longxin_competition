@@ -1,0 +1,13 @@
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\tcp\mbtcp.c
+..\obj\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mbtcp.o: ..\FREEMODBUS\port\port.h
+..\obj\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\include\mb.h
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\include\mbport.h
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\include\mbproto.h
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\include\mbconfig.h
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\tcp\mbtcp.h
+..\obj\mbtcp.o: ..\FREEMODBUS\modbus\include\mbframe.h

@@ -1,0 +1,10 @@
+..\obj\mbutils.o: ..\FREEMODBUS\modbus\functions\mbutils.c
+..\obj\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\mbutils.o: ..\FREEMODBUS\port\port.h
+..\obj\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\obj\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\obj\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mbutils.o: ..\FREEMODBUS\modbus\include\mb.h
+..\obj\mbutils.o: ..\FREEMODBUS\modbus\include\mbport.h
+..\obj\mbutils.o: ..\FREEMODBUS\modbus\include\mbproto.h
