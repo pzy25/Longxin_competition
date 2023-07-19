@@ -7,4 +7,3 @@
 
 
    
-![image](https://github.com/pzy25/Longxin_competition/assets/108598317/fbccfd8b-1626-4532-98d2-3754e9a7e00b)
