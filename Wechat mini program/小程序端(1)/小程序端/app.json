@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/page0/page0",
+    "pages/index/index",
+    "pages/index/page0",
+    "pages/pageb/pageb"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "充电站智慧监控管理系统",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

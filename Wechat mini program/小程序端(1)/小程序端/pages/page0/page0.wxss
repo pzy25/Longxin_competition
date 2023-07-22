@@ -1,0 +1,71 @@
+/* page0.wxss */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  background: white
+}
+
+.title {
+  font-size:30px;
+  color: #050101;
+  margin: 20px 0;
+}
+
+.banner-container {
+  width: 100%;
+  height: 50vh;
+}
+
+.banner-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.workbench{
+  width: 100vw;
+  border-radius: 20px;
+  font-size: 40rpx;
+  background: rgba(211, 211, 211, 0.212);
+  padding-bottom: 30rpx;
+  margin-bottom:10rpx;
+  color: #333;
+}
+.workbench .title{
+  font-size:40rpx;
+  padding: 20rpx 20rpx;
+  margin-bottom: 40rpx;
+  display: block;
+}
+.workbench .list{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+.workbench .items{
+  width: 100rpx;
+  flex:1;
+  text-align: center;
+}
+.workbench .items image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.workbench .items image.service-icon{
+  width: 20rpx;
+  height: 50rpx;
+}
+.workbench .items text{
+  display: block;
+  text-align: center;
+  margin-top: 10rpx;
+}

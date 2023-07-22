@@ -1,0 +1,115 @@
+
+<!-- pages/tabbar/tabbar.wxml -->
+<view class="page-container">
+  <view class="page {{activeIndex==0 ? 'active' : ''}}">
+    <view class="header1">
+      <text class="title">充电桩1</text>
+    </view>
+    <view class="body1">
+	<view class="monitor">
+		<view class="flex-row">
+			<text class="border-right-bottom">充电温度\n{{temperature1}} °C</text>
+			<text class="border-bottom">环境湿度\n{{humidity1}} %</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">电流\n{{current1}} A</text>
+			<text class="border-bottom">电压\n{{voltage1}} V</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">继电器\n{{key1}} </text>
+			<text class="border-bottom">地理位置\n{{1}} </text>
+		</view>
+    <button class="my-button-1" bindtap="keyon1">开始充电</button>
+    <button class="my-button-2" bindtap="keyoff1">结束充电</button>
+	</view>
+</view>
+  </view>
+  <view class="page {{activeIndex==1 ? 'active' : ''}}">
+    <view class="header2">
+      <text class="title">充电桩2</text>
+    </view>
+    <view class="body2">
+	<view class="monitor">
+		<view class="flex-row">
+			<text class="border-right-bottom">充电温度\n{{temperature2}} °C</text>
+			<text class="border-bottom">环境湿度\n{{humidity2}} %</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">电流\n{{current2}} A</text>
+			<text class="border-bottom">电压\n{{voltage2}} V</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">继电器\n{{key2}} </text>
+			<text class="border-bottom">地理位置\n{{1}} </text>
+		</view>
+    <button class="my-button-1" bindtap="keyon2">开始充电</button>
+    <button class="my-button-2" bindtap="keyoff2">结束充电</button>
+	</view>
+</view>
+  </view>
+  <view class="page {{activeIndex==2 ? 'active' : ''}}">
+    <view class="header3">
+      <text class="title">充电桩3</text>
+    </view>
+    <view class="body3">
+	<view class="monitor">
+		<view class="flex-row">
+			<text class="border-right-bottom">充电温度\n{{temperature3}} °C</text>
+			<text class="border-bottom">环境湿度\n{{humidity3}} %</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">电流\n{{current3}} A</text>
+			<text class="border-bottom">电压\n{{voltage3}} V</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">继电器\n{{key2}} </text>
+			<text class="border-bottom">地理位置\n{{2}} </text>
+		</view>
+    <button class="my-button-1" bindtap="keyon3">开始充电</button>
+    <button class="my-button-2" bindtap="keyoff3">结束充电</button>
+	</view>
+</view>
+  </view>
+  <view class="page {{activeIndex==3 ? 'active' : ''}}">
+    <view class="header4">
+      <text class="title">充电桩4</text>
+    </view>
+    <view class="body4">
+	<view class="monitor">
+		<view class="flex-row">
+			<text class="border-right-bottom">充电温度\n{{25}} °C</text>
+			<text class="border-bottom">环境湿度\n{{49}} %</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">电流\n{{0.00}} A</text>
+			<text class="border-bottom">电压\n{{0.0}} V</text>
+		</view>
+		<view class="flex-row">
+			<text class="border-right-bottom">继电器\n{{0}} </text>
+			<text class="border-bottom">地理位置\n{{3}} </text>
+		</view>
+    <button class="my-button-1" bindtap="keyon4">开始充电</button>
+    <button class="my-button-2" bindtap="keyoff4">结束充电</button>
+	</view>
+</view>
+  </view>
+</view>
+
+<view class="tabbar">
+  <view class="tabbar-item" bindtap="handleTabbarChange" data-index="0">
+    <image class="tabbar-icon" src="/images/icon1.png"></image>
+    <text class="tabbar-text">充电桩1</text>
+  </view>
+  <view class="tabbar-item" bindtap="handleTabbarChange" data-index="1">
+    <image class="tabbar-icon" src="/images/icon2.png"></image>
+    <text class="tabbar-text">充电桩2</text>
+  </view>
+  <view class="tabbar-item" bindtap="handleTabbarChange" data-index="2">
+    <image class="tabbar-icon" src="/images/icon3.png"></image>
+    <text class="tabbar-text">充电桩3</text>
+  </view>
+  <view class="tabbar-item" bindtap="handleTabbarChange" data-index="3">
+    <image class="tabbar-icon" src="/images/icon4.png"></image>
+    <text class="tabbar-text">充电桩4</text>
+  </view>
+</view>

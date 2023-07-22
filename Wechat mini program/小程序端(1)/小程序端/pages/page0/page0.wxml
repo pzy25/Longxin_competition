@@ -1,0 +1,34 @@
+<!-- page0.wxml -->
+
+<view class="page-container">
+  <swiper class="banner-swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{bannerList}}" wx:key="url">
+      <swiper-item>
+        <image class="banner-image" src="{{item.image}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <text class="title">开启全新智慧充电体验</text>
+
+  <view class="workbench">
+  <text class="title">工作台</text>
+  <view class="list">
+    <view class="items" bindtap="navigateToPage1">
+      <image src="/icons/monitor.png"></image>
+      <text>充电监控</text>
+    </view>
+    <view class="items" bindtap="navigateToPage2">
+      <image src="/icons/reservation.png"></image>
+      <text>充电预约</text>
+    </view>
+    <view class="items" bindtap="navigateToPage3">
+      <image src="/icons/repair.png"></image>
+      <text>设备保修</text>
+    </view>
+    <view class="items" bindtap="navigateToPage4">
+      <image src="/icons/ring.png"></image>
+      <text>通知消息</text>
+    </view>
+  </view>
+</view>
+</view>
